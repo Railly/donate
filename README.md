@@ -1,47 +1,50 @@
-# Astro Starter Kit: Minimal
+# Support Railly Hugo's Work
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Hi there! 👋 I'm Railly Hugo, a software engineer and hunter pursuing a MS in AI. I'm passionate about creating innovative projects and contributing to the developer community. If you enjoy my work and find value in it, please consider supporting me.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Projects
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Here are some of the projects I've been working on:
 
-## 🚀 Project Structure
+- [One Hunter Theme](https://github.com/Railly/one-hunter-vscode): A sleek theme for VSCode inspired by Vercel & Flexoki 🎨
+- [Semantik](https://github.com/Railly/semantik): An AI-powered Database Studio for PostgreSQL 🚧
+- [Tinte](https://github.com/Railly/tinte): An opinionated multi-platform color theme generator 🎨
+- [Obsidian Flashcards](https://github.com/Railly/obsidian-simple-flashcards): Create and study flashcards within Obsidian 📚
 
-Inside of your Astro project, you'll see the following folders and files:
+For more information about me and my work, please visit my [personal website](https://www.railly.dev).
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Support Methods
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+If you'd like to support my work, you can do so through the following methods:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### GitHub Sponsors
 
-Any static assets, like images, can be placed in the `public/` directory.
+<a style="margin-right: 20px;" href="https://www.github.com/sponsors/Railly">
+  <img src="https://raw.githubusercontent.com/Railly/obsidian-simple-flashcards/master/github-sponsor.png" alt="Sponsor with GitHub" height="45px" />
+</a>
 
-## 🧞 Commands
+### Buy Me a Coffee
 
-All commands are run from the root of the project, from a terminal:
+<a href="https://www.buymeacoffee.com/raillyhugo" target="_blank">
+	<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="45px">
+</a>
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### PayPal
 
-## 👀 Want to learn more?
+<a href="https://www.paypal.com/donate/?hosted_button_id=J3PJ5N6LVZCPY">
+  <img style="margin-right: 20px;" src="https://raw.githubusercontent.com/Railly/Railly/main/buttons/donate-with-paypal.png" alt="Donate with PayPal" height="45px" />
+</a>
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Yape
+
+<a href="https://www.donate.railly.dev?open-yape-dialog=true">
+  <img style="margin-right: 20px;" src="https://raw.githubusercontent.com/Railly/donate/main/public/donate-with-yape.png" alt="Donate with PayPal" height="45px" />
+</a>
+
+## Thank You! 🙏
+
+Your support means a lot to me and helps me continue creating valuable content and projects for the community. Thank you for considering supporting my work!
+
+If you have any questions or just want to connect, feel free to reach out to me.
+
+Happy coding! 💻✨

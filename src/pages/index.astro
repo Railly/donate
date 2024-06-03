@@ -173,6 +173,15 @@ import YapeDialog from "../components/yape-dialog.astro";
     yapeDialog?.classList.add("opacity-0", "pointer-events-none");
   }
 
+  function checkQueryParam() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const openYapeDialog = urlParams.get("open-yape-dialog");
+
+    if (openYapeDialog === "true") {
+      openDialog();
+    }
+  }
+
   yapeButton?.addEventListener("click", openDialog);
   closeDialogButton?.addEventListener("click", closeDialog);
 
@@ -181,4 +190,7 @@ import YapeDialog from "../components/yape-dialog.astro";
       closeDialog();
     }
   });
+
+  // Check for the query parameter when the page loads
+  window.addEventListener("DOMContentLoaded", checkQueryParam);
 </script>
