@@ -1,0 +1,184 @@
+---
+import BaseLayout from "../layouts/base-layout.astro";
+import YapeDialog from "../components/yape-dialog.astro";
+---
+
+<BaseLayout
+  title="Donate | Railly Hugo"
+  description="Support Railly Hugo's work through various donation methods."
+  author="Railly Hugo"
+>
+  <div
+    class="flex flex-col md:flex-row md:gap-8 items-center justify-center min-h-screen p-8 text-neutral-800"
+  >
+    <div class="max-w-prose space-y-6 text-center">
+      <section class="flex gap-2 items-center justify-center">
+        <h1 class="text-2xl font-bold m-0">Railly Hugo</h1>
+        <p class="m-0">~</p>
+        <h2 class="text-xl font-semibold m-0">Hunter</h2>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 219 249"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="text-neutral-800"
+        >
+          <path
+            d="M104.586 8.32431C107.627 6.55857 111.373 6.55856 114.414 8.32431L207.086 62.1319C210.127 63.8977 212 67.1609 212 70.6924V178.308C212 181.839 210.127 185.102 207.086 186.868L114.414 240.676C111.373 242.441 107.627 242.441 104.586 240.676L11.9145 186.868C8.87339 185.102 7 181.839 7 178.308V70.6924C7 67.1609 8.87339 63.8977 11.9145 62.1319L104.586 8.32431Z"
+            stroke="currentColor"
+            stroke-width="13"></path>
+          <path
+            d="M108.5 13.5C154.5 52.3333 218.9 151.3 108.5 236.5"
+            stroke="currentColor"
+            stroke-width="10"
+            stroke-linecap="round"></path>
+          <path
+            d="M12.5 68L105.5 233"
+            stroke="currentColor"
+            stroke-width="10"
+            stroke-linecap="round"></path>
+          <path
+            d="M12 183L105 18"
+            stroke="currentColor"
+            stroke-width="10"
+            stroke-linecap="round"></path>
+        </svg>
+      </section>
+      <section class="flex gap-2 items-center justify-center mt-2">
+        <h3 class="text-lg font-medium m-0 text-neutral-600">
+          Software Engineer
+        </h3>
+        <p class="m-0">~</p>
+        <h4 class="hidden md:block text-lg font-medium m-0 text-neutral-600">
+          Pursuing a MS in AI
+        </h4>
+        <h4 class="md:hidden text-lg font-medium m-0 text-neutral-600">
+          MS in AI
+        </h4>
+      </section>
+      <ul class="list-disc list-inside text-left space-y-2">
+        <li>
+          <a
+            class="text-blue-500 hover:underline cursor-pointer font-bold"
+            href="https:github.com/Raillyone-hunter-vscode"
+            target="_blank"
+          >
+            One Hunter Theme</a
+          >: A sleek theme inspired by Vercel & Flexoki 🎨
+        </li>
+        <li>
+          <a
+            class="text-blue-500 hover:underline cursor-pointer font-bold"
+            href="https://github.com/Railly/semantik"
+            target="_blank">Semantik</a
+          >: An AI-powered Database Studio for PostgreSQL 🚧
+        </li>
+        <li>
+          <a
+            class="text-blue-500 hover:underline cursor-pointer font-bold"
+            href="https://github.com/Railly/tinte"
+            target="_blank">Tinte:</a
+          > An opinionated multi-platform color theme generator 🎨
+        </li>
+        <li>
+          <a
+            class="text-blue-500 hover:underline cursor-pointer font-bold"
+            href="https://github.com/Railly/obsidian-simple-flashcards"
+            target="_blank">Obsidian Flashcards:</a
+          > Create and study flashcards within Obsidian. 📚
+        </li>
+      </ul>
+      <div class="flex justify-center w-full">
+        <a
+          href="https://www.railly.dev"
+          class="flex w-max mt-4 px-4 py-2 bg-neutral-800 text-white rounded-md shadow-md hover:bg-neutral-700 transition-colors duration-300"
+          target="_blank"
+        >
+          Know More About Me
+        </a>
+      </div>
+    </div>
+    <div
+      class="mt-12 p-8 bg-white rounded-lg shadow-lg border border-neutral-200 max-w-md text-center"
+    >
+      <h3 class="text-2xl font-semibold mb-4">Support My Work</h3>
+      <p class="mb-6">
+        If you enjoy my work, consider supporting me through one of the
+        following methods:
+      </p>
+      <div class="space-y-4">
+        <a
+          href="https://www.github.com/sponsors/Railly"
+          target="_blank"
+          class="block transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="https://raw.githubusercontent.com/Railly/obsidian-simple-flashcards/master/github-sponsor.png"
+            alt="Sponsor with GitHub"
+            class="w-52 mx-auto"
+          />
+        </a>
+        <a
+          href="https://www.buymeacoffee.com/raillyhugo"
+          target="_blank"
+          class="block transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+            class="w-52 mx-auto"
+          />
+        </a>
+        <a
+          href="https://www.paypal.com/donate/?hosted_button_id=J3PJ5N6LVZCPY"
+          target="_blank"
+          class="block transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="https://raw.githubusercontent.com/Railly/Railly/main/buttons/donate-with-paypal.png"
+            alt="Donate with PayPal"
+            class="w-52 mx-auto"
+          />
+        </a>
+        <a
+          href="#"
+          id="yape-button"
+          class="block transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="/donate-with-yape.png"
+            alt="Donate with Yape"
+            class="w-52 mx-auto"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<YapeDialog yapeImage="/yape-qr-code.png" />
+
+<script>
+  const yapeButton = document.getElementById("yape-button");
+  const yapeDialog = document.getElementById("yape-dialog");
+  const closeDialogButton = document.getElementById("close-dialog");
+  const dialogContent = yapeDialog?.querySelector(".bg-white");
+
+  function openDialog() {
+    yapeDialog?.classList.remove("opacity-0", "pointer-events-none");
+  }
+
+  function closeDialog() {
+    yapeDialog?.classList.add("opacity-0", "pointer-events-none");
+  }
+
+  yapeButton?.addEventListener("click", openDialog);
+  closeDialogButton?.addEventListener("click", closeDialog);
+
+  yapeDialog?.addEventListener("click", (event) => {
+    if (!dialogContent?.contains(event.target as Node)) {
+      closeDialog();
+    }
+  });
+</script>
