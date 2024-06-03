@@ -37,7 +37,7 @@ If you'd like to support my work, you can do so through the following methods:
 
 ### Yape
 
-<a href="https://www.donate.railly.dev?open-yape-dialog=true">
+<a href="https://donate.railly.dev?open-yape-dialog=true">
   <img style="margin-right: 20px;" src="https://raw.githubusercontent.com/Railly/donate/main/public/donate-with-yape.png" alt="Donate with PayPal" height="45px" />
 </a>
 
