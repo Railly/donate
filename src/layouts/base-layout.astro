@@ -55,11 +55,6 @@ const { title, description, author } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../styles/computer-modern/bright.css" />
-    <link rel="stylesheet" href="../styles/computer-modern/concrete.css" />
-    <link rel="stylesheet" href="../styles/computer-modern/sans.css" />
-    <link rel="stylesheet" href="../styles/computer-modern/serif.css" />
-    <link rel="stylesheet" href="../styles/computer-modern/typewriter.css" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -81,7 +76,7 @@ const { title, description, author } = Astro.props;
   </head>
   <body class="min-w-screen h-full">
     <main
-      class="bg-[#100F0F] selection:bg-stone-800 w-full flex justify-center"
+      class="bg-[#FEFCF0] dark:bg-[#100F0F] dark:selection:bg-stone-800 w-full flex justify-center"
     >
       <slot />
     </main>
