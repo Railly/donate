@@ -1,0 +1,17 @@
+---
+
+---
+
+<script is:inline define:vars={{ siteId: "donate" }}>
+  (function () {
+    window.counterscale = {
+      q: [["set", "siteId", siteId], ["trackPageview"]],
+    };
+  })();
+</script>
+
+<script
+  is:inline
+  src="https://counterscale.raillyhugo.workers.dev/tracker.js"
+  async
+  defer></script>
