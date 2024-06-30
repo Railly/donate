@@ -74,13 +74,13 @@ const { title, description, author } = Astro.props;
     <meta name="color-scheme" content="light dark" />
     <meta name="robots" content="follow, index" />
     <meta name="googlebot" content="follow, index" />
+    <CounterscaleScript />
   </head>
   <body class="min-w-screen h-full">
     <main
       class="bg-[#FEFCF0] dark:bg-[#100F0F] dark:selection:bg-stone-800 w-full flex justify-center"
     >
       <slot />
-      <CounterscaleScript />
     </main>
     <!-- <Footer /> -->
   </body>
